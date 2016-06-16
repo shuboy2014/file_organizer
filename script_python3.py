@@ -1,3 +1,5 @@
+# author: Shubham Aggarwal
+# Date  : 16-06-2016  
 
 import os
 import shutil
@@ -44,6 +46,6 @@ if __name__ == '__main__' :
 		destination_root=raw_input("Enter the full path of Directory Where unstructed files are present: ")
 		os.chdir(destination_root)
 		doAllWork(destination_root)
-		print "its Done :) "
+		print ("its Done :) ")
 	except:
-		print " Oops :( Directory may not exist..!!"
+		print (" Oops :( Directory may not exist..!!")
